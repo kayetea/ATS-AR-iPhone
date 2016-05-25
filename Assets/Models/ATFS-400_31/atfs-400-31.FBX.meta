@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 9846c623acc50564bb48c7a2c140847f
+timeCreated: 1447850642
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ArmAxis
+    100002: ArmCovering
+    100004: ArmEnd
+    100006: //RootNode
+    100008: base
+    100010: basePole
+    100012: Pitch
+    100014: PitchCustom
+    100016: Roll
+    100018: rollBLue
+    100020: rollChrome
+    100022: rollWhite
+    100024: WholeArm
+    400000: ArmAxis
+    400002: ArmCovering
+    400004: ArmEnd
+    400006: //RootNode
+    400008: base
+    400010: basePole
+    400012: Pitch
+    400014: PitchCustom
+    400016: Roll
+    400018: rollBLue
+    400020: rollChrome
+    400022: rollWhite
+    400024: WholeArm
+    2300000: ArmAxis
+    2300002: ArmCovering
+    2300004: ArmEnd
+    2300006: base
+    2300008: basePole
+    2300010: PitchCustom
+    2300012: rollBLue
+    2300014: rollChrome
+    2300016: rollWhite
+    3300000: ArmAxis
+    3300002: ArmCovering
+    3300004: ArmEnd
+    3300006: base
+    3300008: basePole
+    3300010: PitchCustom
+    3300012: rollBLue
+    3300014: rollChrome
+    3300016: rollWhite
+    4300000: basePole
+    4300002: base
+    4300004: PitchCustom
+    4300006: rollBLue
+    4300008: rollChrome
+    4300010: rollWhite
+    4300012: ArmEnd
+    4300014: ArmCovering
+    4300016: ArmAxis
+    7400000: 3Gs
+    7400002: 6Gs
+    7400004: 9Gs
+    7400006: 15Gs
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 3Gs
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 106
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: base
+        weight: 1
+      - path: basePole
+        weight: 1
+      - path: WholeArm
+        weight: 1
+      - path: WholeArm/ArmAxis
+        weight: 1
+      - path: WholeArm/ArmAxis/ArmCovering
+        weight: 1
+      - path: WholeArm/ArmAxis/ArmCovering/ArmEnd
+        weight: 1
+      - path: WholeArm/ArmAxis/ArmCovering/ArmEnd/rollBLue
+        weight: 1
+      - path: WholeArm/ArmAxis/ArmCovering/ArmEnd/rollBLue/PitchCustom
+        weight: 1
+      - path: WholeArm/ArmAxis/ArmCovering/ArmEnd/rollBLue/rollChrome
+        weight: 1
+      - path: WholeArm/ArmAxis/ArmCovering/ArmEnd/rollBLue/rollWhite
+        weight: 1
+      - path: WholeArm/Roll
+        weight: 1
+      - path: WholeArm/Roll/Pitch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 6Gs
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 223
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: base
+        weight: 1
+      - path: base/ArmAxis
+        weight: 1
+      - path: base/ArmAxis/ArmCovering
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue/PitchCustom
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue/rollChrome
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue/rollWhite
+        weight: 1
+      - path: base/basePole
+        weight: 1
+      - path: WholeArm
+        weight: 1
+      - path: WholeArm/Roll
+        weight: 1
+      - path: WholeArm/Roll/Pitch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 9Gs
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 281
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: base
+        weight: 1
+      - path: base/ArmAxis
+        weight: 1
+      - path: base/ArmAxis/ArmCovering
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue/PitchCustom
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue/rollChrome
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue/rollWhite
+        weight: 1
+      - path: base/basePole
+        weight: 1
+      - path: WholeArm
+        weight: 1
+      - path: WholeArm/Roll
+        weight: 1
+      - path: WholeArm/Roll/Pitch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 15Gs
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 344
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: base
+        weight: 1
+      - path: base/ArmAxis
+        weight: 1
+      - path: base/ArmAxis/ArmCovering
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue/PitchCustom
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue/rollChrome
+        weight: 1
+      - path: base/ArmAxis/ArmCovering/ArmEnd/rollBLue/rollWhite
+        weight: 1
+      - path: base/basePole
+        weight: 1
+      - path: WholeArm
+        weight: 1
+      - path: WholeArm/Roll
+        weight: 1
+      - path: WholeArm/Roll/Pitch
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
