@@ -6,11 +6,11 @@ public class SceneLoad : MonoBehaviour {
 
 	public string sceneName;
 
-    //private GoogleAnalyticsV4 googleAnalytics;
+    private GoogleAnalyticsV4 googleAnalytics;
 
 	// Use this for initialization
 	void Start () {
-       // googleAnalytics = GameObject.Find("GAv4").GetComponent<GoogleAnalyticsV4>();
+       googleAnalytics = GameObject.Find("GAv4").GetComponent<GoogleAnalyticsV4>();
 	}
 	
 	public void Exit() {
@@ -21,12 +21,12 @@ public class SceneLoad : MonoBehaviour {
         SceneManager.LoadScene(sceneName);
 		Resources.UnloadUnusedAssets ();
 
-       // googleAnalytics.LogScreen(sceneName);
+		googleAnalytics.LogScreen(sceneName);
 	}
 
 	public void OnMouseDown(){
         SceneManager.LoadScene(sceneName);
         Resources.UnloadUnusedAssets ();
-      //  googleAnalytics.LogScreen(sceneName);
+		googleAnalytics.LogScreen(sceneName);
     }
 }
