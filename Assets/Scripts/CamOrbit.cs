@@ -7,8 +7,6 @@ public class CamOrbit : MonoBehaviour {
 	public float xSpeed = 125.0f;
 	public float ySpeed = 50f;
 
-	public float  resetTime = 1.0f; //How long to take to reset
-
 	private Vector3 startDirection = Vector3.zero; //How far away to orbit
 
 	private float x = 0.0f; 
@@ -18,25 +16,20 @@ public class CamOrbit : MonoBehaviour {
 	private Quaternion startRotation;
 	private Quaternion rotation;
 
-	private bool resetting = false;
-	private float resetTimer = 0.0f;
-
 	void LateUpdate()
 	{
-		if (Input.touchCount == 1)
-		{   
-			startDirection = (transform.position - target.position);
+		if (Input.GetMouseButtonDown(0))
+		{    startDirection = (transform.position - target.position);
 			startRotation = transform.rotation;
 			x = 0.0f;
 			y = 0.0f;
 			z = 0.0f;
 		} 
 
-		if (Input.touchCount == 1)
+		if (Input.GetMouseButton(0))
 		{
 			x += Input.GetAxis("Mouse X") * xSpeed * 0.02f;
-			//y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
-			y = 0.0f;
+			y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
 			z = 0.0f;
 			Reorient();
 		} 
