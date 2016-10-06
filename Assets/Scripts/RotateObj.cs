@@ -4,13 +4,22 @@ using System.Collections;
 public class RotateObj : MonoBehaviour 
 {
 	float rotSpeed = 20;
+	public Transform rotatePoint;
+
+	void Start()
+	{
+		if (!rotatePoint) {
+			rotatePoint = this.GetComponent<Transform> ();
+		}
+	}
 
 	void OnMouseDrag()
 	{
 		float rotX = Input.GetAxis("Mouse X")*rotSpeed*Mathf.Deg2Rad;
 		//float rotY = Input.GetAxis("Mouse Y")*rotSpeed*Mathf.Deg2Rad;
 
-		transform.RotateAround(Vector3.up, -rotX);
+		rotatePoint.RotateAround (Vector3.up, -rotX);
+		//transform.RotateAround(Vector3.up, -rotX);
 		//transform.RotateAround(Vector3.right, rotY);
 	}
 }
