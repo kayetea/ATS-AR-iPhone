@@ -23,18 +23,20 @@ public class CamOrbit : MonoBehaviour {
 
 	void LateUpdate()
 	{
-		if (Input.GetMouseButtonDown(0))
-		{    startDirection = (transform.position - target.position);
+		if (Input.touchCount == 1)
+		{   
+			startDirection = (transform.position - target.position);
 			startRotation = transform.rotation;
 			x = 0.0f;
 			y = 0.0f;
 			z = 0.0f;
 		} 
 
-		if (Input.GetMouseButton(0))
+		if (Input.touchCount == 1)
 		{
 			x += Input.GetAxis("Mouse X") * xSpeed * 0.02f;
-			y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
+			//y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
+			y = 0.0f;
 			z = 0.0f;
 			Reorient();
 		} 
