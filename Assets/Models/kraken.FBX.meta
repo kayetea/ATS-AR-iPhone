@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: 1bb50121449db7d46a6d886eed522f18
+timeCreated: 1470077961
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm
+    100002: bars-under-rail_L
+    100004: bars-under-rail_R
+    100006: bars_L
+    100008: bars_R
+    100010: base_cylinder_peg_LL
+    100012: base_cylinder_peg_LL 1
+    100014: base_cylinder_peg_LR
+    100016: base_cylinder_peg_LR 1
+    100018: behind-center-base-wheel-motor_L
+    100020: behind-center-base-wheel-motor_R
+    100022: bottom_rail_L
+    100024: bottom_rail_R
+    100026: cable_carrier
+    100028: capsule
+    100030: capsule_door
+    100032: capsule_top_box
+    100034: capsule_windowL
+    100036: capsule_windowR
+    100038: catwalk
+    100040: catwalk_L
+    100042: catwalk_R
+    100044: center-base-wheel_L
+    100046: center-base-wheel_R
+    100048: center_base_gear_support_L
+    100050: center_base_gear_support_R
+    100052: curved_support_LL
+    100054: curved_support_LL 1
+    100056: curved_support_LR
+    100058: curved_support_LR 1
+    100060: fence_L
+    100062: fence_R
+    100064: gears_mid_block_L
+    100066: gears_mid_block_R
+    100068: handrail_end_L
+    100070: handrail_end_R
+    100072: handrail_side_L
+    100074: handrail_side_R
+    100076: Heave
+    100078: Heave-ring_L
+    100080: Heave-ring_R
+    100082: Heave_L
+    100084: Heave_R
+    100086: horz_igus_L
+    100088: horz_igus_R
+    100090: igus
+    100092: //RootNode
+    100094: LEFT
+    100096: little_wall_L
+    100098: little_wall_R
+    100100: lrg_cylindrical_motor_L
+    100102: lrg_cylindrical_motor_R
+    100104: motor_base_L
+    100106: motor_base_R
+    100108: rail_wheels_cntr_L
+    100110: rail_wheels_cntr_R
+    100112: rail_wheels_LL
+    100114: rail_wheels_LR
+    100116: rail_wheels_LR 1
+    100118: rail_wheels_RR
+    100120: RIGHT
+    100122: Roll
+    100124: roll-cap-btm
+    100126: roll-cap-top
+    100128: sled
+    100130: sm_cylindrical_motor_L
+    100132: sm_cylindrical_motor_R
+    100134: steps_L
+    100136: steps_R
+    100138: table_L
+    100140: table_R
+    100142: top_arch_L
+    100144: top_arch_R
+    100146: top_cylinder_peg_LL
+    100148: top_cylinder_peg_LR
+    100150: top_cylinder_peg_LR 1
+    100152: top_cylinder_peg_RR
+    100154: top_pole_L
+    100156: top_pole_R
+    100158: top_side_wheel_horiz_L
+    100160: top_side_wheel_horiz_L 1
+    100162: top_side_wheel_horiz_R
+    100164: top_side_wheel_horiz_R 1
+    100166: top_side_wheel_LL
+    100168: top_side_wheel_LR
+    100170: top_side_wheel_RL
+    100172: top_side_wheel_RR
+    100174: vert_igus_L
+    100176: vert_igus_R
+    100178: weg_box_L
+    100180: weg_box_R
+    100182: yaw
+    100184: yaw-cap-back
+    100186: yaw-cap-front
+    100188: heave
+    100190: roll
+    100192: sm_cylindrical_motor_R001
+    100194: top_rail_L
+    100196: top_rail_R
+    100198: top_side_wheel_horiz_L_001
+    100200: top_side_wheel_horiz_R_001
+    100202: arm_L
+    100204: arm_R
+    100206: sled 1
+    400000: arm
+    400002: bars-under-rail_L
+    400004: bars-under-rail_R
+    400006: bars_L
+    400008: bars_R
+    400010: base_cylinder_peg_LL
+    400012: base_cylinder_peg_LL 1
+    400014: base_cylinder_peg_LR
+    400016: base_cylinder_peg_LR 1
+    400018: behind-center-base-wheel-motor_L
+    400020: behind-center-base-wheel-motor_R
+    400022: bottom_rail_L
+    400024: bottom_rail_R
+    400026: cable_carrier
+    400028: capsule
+    400030: capsule_door
+    400032: capsule_top_box
+    400034: capsule_windowL
+    400036: capsule_windowR
+    400038: catwalk
+    400040: catwalk_L
+    400042: catwalk_R
+    400044: center-base-wheel_L
+    400046: center-base-wheel_R
+    400048: center_base_gear_support_L
+    400050: center_base_gear_support_R
+    400052: curved_support_LL
+    400054: curved_support_LL 1
+    400056: curved_support_LR
+    400058: curved_support_LR 1
+    400060: fence_L
+    400062: fence_R
+    400064: gears_mid_block_L
+    400066: gears_mid_block_R
+    400068: handrail_end_L
+    400070: handrail_end_R
+    400072: handrail_side_L
+    400074: handrail_side_R
+    400076: Heave
+    400078: Heave-ring_L
+    400080: Heave-ring_R
+    400082: Heave_L
+    400084: Heave_R
+    400086: horz_igus_L
+    400088: horz_igus_R
+    400090: igus
+    400092: //RootNode
+    400094: LEFT
+    400096: little_wall_L
+    400098: little_wall_R
+    400100: lrg_cylindrical_motor_L
+    400102: lrg_cylindrical_motor_R
+    400104: motor_base_L
+    400106: motor_base_R
+    400108: rail_wheels_cntr_L
+    400110: rail_wheels_cntr_R
+    400112: rail_wheels_LL
+    400114: rail_wheels_LR
+    400116: rail_wheels_LR 1
+    400118: rail_wheels_RR
+    400120: RIGHT
+    400122: Roll
+    400124: roll-cap-btm
+    400126: roll-cap-top
+    400128: sled
+    400130: sm_cylindrical_motor_L
+    400132: sm_cylindrical_motor_R
+    400134: steps_L
+    400136: steps_R
+    400138: table_L
+    400140: table_R
+    400142: top_arch_L
+    400144: top_arch_R
+    400146: top_cylinder_peg_LL
+    400148: top_cylinder_peg_LR
+    400150: top_cylinder_peg_LR 1
+    400152: top_cylinder_peg_RR
+    400154: top_pole_L
+    400156: top_pole_R
+    400158: top_side_wheel_horiz_L
+    400160: top_side_wheel_horiz_L 1
+    400162: top_side_wheel_horiz_R
+    400164: top_side_wheel_horiz_R 1
+    400166: top_side_wheel_LL
+    400168: top_side_wheel_LR
+    400170: top_side_wheel_RL
+    400172: top_side_wheel_RR
+    400174: vert_igus_L
+    400176: vert_igus_R
+    400178: weg_box_L
+    400180: weg_box_R
+    400182: yaw
+    400184: yaw-cap-back
+    400186: yaw-cap-front
+    400188: heave
+    400190: roll
+    400192: sm_cylindrical_motor_R001
+    400194: top_rail_L
+    400196: top_rail_R
+    400198: top_side_wheel_horiz_L_001
+    400200: top_side_wheel_horiz_R_001
+    400202: arm_L
+    400204: arm_R
+    400206: sled 1
+    2300000: arm
+    2300002: bars-under-rail_L
+    2300004: bars-under-rail_R
+    2300006: bars_L
+    2300008: bars_R
+    2300010: base_cylinder_peg_LL
+    2300012: base_cylinder_peg_LL 1
+    2300014: base_cylinder_peg_LR
+    2300016: base_cylinder_peg_LR 1
+    2300018: behind-center-base-wheel-motor_L
+    2300020: behind-center-base-wheel-motor_R
+    2300022: bottom_rail_L
+    2300024: bottom_rail_R
+    2300026: cable_carrier
+    2300028: capsule
+    2300030: capsule_door
+    2300032: capsule_top_box
+    2300034: capsule_windowL
+    2300036: capsule_windowR
+    2300038: catwalk_L
+    2300040: catwalk_R
+    2300042: center-base-wheel_L
+    2300044: center-base-wheel_R
+    2300046: center_base_gear_support_L
+    2300048: center_base_gear_support_R
+    2300050: curved_support_LL
+    2300052: curved_support_LL 1
+    2300054: curved_support_LR
+    2300056: curved_support_LR 1
+    2300058: fence_L
+    2300060: fence_R
+    2300062: gears_mid_block_L
+    2300064: gears_mid_block_R
+    2300066: handrail_end_L
+    2300068: handrail_end_R
+    2300070: handrail_side_L
+    2300072: handrail_side_R
+    2300074: Heave-ring_L
+    2300076: Heave-ring_R
+    2300078: Heave_L
+    2300080: Heave_R
+    2300082: horz_igus_L
+    2300084: horz_igus_R
+    2300086: little_wall_L
+    2300088: little_wall_R
+    2300090: lrg_cylindrical_motor_L
+    2300092: lrg_cylindrical_motor_R
+    2300094: motor_base_L
+    2300096: motor_base_R
+    2300098: rail_wheels_cntr_L
+    2300100: rail_wheels_cntr_R
+    2300102: rail_wheels_LL
+    2300104: rail_wheels_LR
+    2300106: rail_wheels_LR 1
+    2300108: rail_wheels_RR
+    2300110: Roll
+    2300112: roll-cap-btm
+    2300114: roll-cap-top
+    2300116: sled
+    2300118: sm_cylindrical_motor_L
+    2300120: sm_cylindrical_motor_R
+    2300122: steps_L
+    2300124: steps_R
+    2300126: table_L
+    2300128: table_R
+    2300130: top_arch_L
+    2300132: top_arch_R
+    2300134: top_cylinder_peg_LL
+    2300136: top_cylinder_peg_LR
+    2300138: top_cylinder_peg_LR 1
+    2300140: top_cylinder_peg_RR
+    2300142: top_pole_L
+    2300144: top_pole_R
+    2300146: top_side_wheel_horiz_L
+    2300148: top_side_wheel_horiz_L 1
+    2300150: top_side_wheel_horiz_R
+    2300152: top_side_wheel_horiz_R 1
+    2300154: top_side_wheel_LL
+    2300156: top_side_wheel_LR
+    2300158: top_side_wheel_RL
+    2300160: top_side_wheel_RR
+    2300162: vert_igus_L
+    2300164: vert_igus_R
+    2300166: weg_box_L
+    2300168: weg_box_R
+    2300170: yaw
+    2300172: yaw-cap-back
+    2300174: yaw-cap-front
+    2300176: roll
+    2300178: sm_cylindrical_motor_R001
+    2300180: top_rail_L
+    2300182: top_rail_R
+    2300184: top_side_wheel_horiz_L_001
+    2300186: top_side_wheel_horiz_R_001
+    2300188: sled 1
+    3300000: arm
+    3300002: bars-under-rail_L
+    3300004: bars-under-rail_R
+    3300006: bars_L
+    3300008: bars_R
+    3300010: base_cylinder_peg_LL
+    3300012: base_cylinder_peg_LL 1
+    3300014: base_cylinder_peg_LR
+    3300016: base_cylinder_peg_LR 1
+    3300018: behind-center-base-wheel-motor_L
+    3300020: behind-center-base-wheel-motor_R
+    3300022: bottom_rail_L
+    3300024: bottom_rail_R
+    3300026: cable_carrier
+    3300028: capsule
+    3300030: capsule_door
+    3300032: capsule_top_box
+    3300034: capsule_windowL
+    3300036: capsule_windowR
+    3300038: catwalk_L
+    3300040: catwalk_R
+    3300042: center-base-wheel_L
+    3300044: center-base-wheel_R
+    3300046: center_base_gear_support_L
+    3300048: center_base_gear_support_R
+    3300050: curved_support_LL
+    3300052: curved_support_LL 1
+    3300054: curved_support_LR
+    3300056: curved_support_LR 1
+    3300058: fence_L
+    3300060: fence_R
+    3300062: gears_mid_block_L
+    3300064: gears_mid_block_R
+    3300066: handrail_end_L
+    3300068: handrail_end_R
+    3300070: handrail_side_L
+    3300072: handrail_side_R
+    3300074: Heave-ring_L
+    3300076: Heave-ring_R
+    3300078: Heave_L
+    3300080: Heave_R
+    3300082: horz_igus_L
+    3300084: horz_igus_R
+    3300086: little_wall_L
+    3300088: little_wall_R
+    3300090: lrg_cylindrical_motor_L
+    3300092: lrg_cylindrical_motor_R
+    3300094: motor_base_L
+    3300096: motor_base_R
+    3300098: rail_wheels_cntr_L
+    3300100: rail_wheels_cntr_R
+    3300102: rail_wheels_LL
+    3300104: rail_wheels_LR
+    3300106: rail_wheels_LR 1
+    3300108: rail_wheels_RR
+    3300110: Roll
+    3300112: roll-cap-btm
+    3300114: roll-cap-top
+    3300116: sled
+    3300118: sm_cylindrical_motor_L
+    3300120: sm_cylindrical_motor_R
+    3300122: steps_L
+    3300124: steps_R
+    3300126: table_L
+    3300128: table_R
+    3300130: top_arch_L
+    3300132: top_arch_R
+    3300134: top_cylinder_peg_LL
+    3300136: top_cylinder_peg_LR
+    3300138: top_cylinder_peg_LR 1
+    3300140: top_cylinder_peg_RR
+    3300142: top_pole_L
+    3300144: top_pole_R
+    3300146: top_side_wheel_horiz_L
+    3300148: top_side_wheel_horiz_L 1
+    3300150: top_side_wheel_horiz_R
+    3300152: top_side_wheel_horiz_R 1
+    3300154: top_side_wheel_LL
+    3300156: top_side_wheel_LR
+    3300158: top_side_wheel_RL
+    3300160: top_side_wheel_RR
+    3300162: vert_igus_L
+    3300164: vert_igus_R
+    3300166: weg_box_L
+    3300168: weg_box_R
+    3300170: yaw
+    3300172: yaw-cap-back
+    3300174: yaw-cap-front
+    3300176: roll
+    3300178: sm_cylindrical_motor_R001
+    3300180: top_rail_L
+    3300182: top_rail_R
+    3300184: top_side_wheel_horiz_L_001
+    3300186: top_side_wheel_horiz_R_001
+    3300188: sled 1
+    4300000: capsule
+    4300002: capsule_top_box
+    4300004: capsule_windowL
+    4300006: capsule_windowR
+    4300008: capsule_door
+    4300010: yaw
+    4300012: yaw-cap-front
+    4300014: yaw-cap-back
+    4300016: Roll
+    4300018: roll-cap-btm
+    4300020: roll-cap-top
+    4300022: Heave_L
+    4300024: Heave-ring_L
+    4300026: Heave_R
+    4300028: Heave-ring_R
+    4300030: sled
+    4300032: top_arch_L
+    4300034: top_pole_L
+    4300036: top_cylinder_peg_LR
+    4300038: rail_wheels_cntr_L
+    4300040: rail_wheels_LR
+    4300042: base_cylinder_peg_LR
+    4300044: curved_support_LR
+    4300046: cable_carrier
+    4300048: top_arch_R
+    4300050: top_cylinder_peg_LR
+    4300052: top_pole_R
+    4300054: rail_wheels_cntr_R
+    4300056: rail_wheels_LR
+    4300058: base_cylinder_peg_LR
+    4300060: curved_support_LR
+    4300062: rail_wheels_LL
+    4300064: top_cylinder_peg_RR
+    4300066: rail_wheels_RR
+    4300068: base_cylinder_peg_LL
+    4300070: curved_support_LL
+    4300072: curved_support_LL
+    4300074: base_cylinder_peg_LL
+    4300076: top_cylinder_peg_LL
+    4300078: arm
+    4300080: bars_R
+    4300082: weg_box_R
+    4300084: top_side_wheel_RL
+    4300086: top_side_wheel_horiz_R
+    4300088: top_side_wheel_RR
+    4300090: top_side_wheel_horiz_R
+    4300092: bars-under-rail_R
+    4300094: bottom_rail_R
+    4300096: motor_base_R
+    4300098: lrg_cylindrical_motor_R
+    4300100: sm_cylindrical_motor_R
+    4300102: center_base_gear_support_R
+    4300104: center-base-wheel_R
+    4300106: behind-center-base-wheel-motor_R
+    4300108: gears_mid_block_R
+    4300110: bars_L
+    4300112: top_side_wheel_LL
+    4300114: top_side_wheel_horiz_L
+    4300116: top_side_wheel_LR
+    4300118: top_side_wheel_horiz_L
+    4300120: weg_box_L
+    4300122: bars-under-rail_L
+    4300124: bottom_rail_L
+    4300126: center_base_gear_support_L
+    4300128: center-base-wheel_L
+    4300130: behind-center-base-wheel-motor_L
+    4300132: gears_mid_block_L
+    4300134: motor_base_L
+    4300136: lrg_cylindrical_motor_L
+    4300138: sm_cylindrical_motor_L
+    4300140: catwalk_L
+    4300142: fence_L
+    4300144: handrail_end_L
+    4300146: handrail_side_L
+    4300148: little_wall_L
+    4300150: steps_L
+    4300152: table_L
+    4300154: catwalk_R
+    4300156: fence_R
+    4300158: handrail_end_R
+    4300160: handrail_side_R
+    4300162: little_wall_R
+    4300164: steps_R
+    4300166: table_R
+    4300168: horz_igus_L
+    4300170: horz_igus_R
+    4300172: vert_igus_L
+    4300174: vert_igus_R
+    4300176: roll
+    4300178: top_side_wheel_horiz_R_001
+    4300180: top_rail_R
+    4300182: sm_cylindrical_motor_R001
+    4300184: top_side_wheel_horiz_L_001
+    4300186: top_rail_L
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 45
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: arm
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d2889270e28ba3b418a39b4f8608cea4,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
